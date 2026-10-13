@@ -40,6 +40,11 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: auto;
+}
+
+#header .carousel-item img {
+	height: auto;
 }
 
 #about {
@@ -69,7 +74,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
@@ -85,13 +90,17 @@ body {
 	font-style: italic;
 	width: 60%;
 }
+#about-me .about-me__introduction {
+	width: 60%;
+	font-size: 1rem;
+}
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+/*	min-height: 100vh; */
 }
 .title{
 	text-align: center;
@@ -101,7 +110,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -258,6 +267,9 @@ input[type="submit"] {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	#about-me .about-me__introduction {
+		width: 100%;
+	}
 }
 
 @media all and (max-width: 1000px) {
@@ -352,5 +364,4 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
-}
-
+}		
