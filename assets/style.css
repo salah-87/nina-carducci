@@ -365,3 +365,14 @@ input[type="submit"] {
 		width: 80%;
 	}
 }		
+
+/* Accessibilité : focus clavier visible sur la galerie et le carrousel */
+.gallery-item:focus-visible,
+.nav-pills .nav-link:focus-visible,
+.mg-prev:focus-visible,
+.mg-next:focus-visible,
+.carousel-control-prev:focus-visible,
+.carousel-control-next:focus-visible {
+	outline: 3px solid #BEB45A;
+	outline-offset: 3px;
+}
